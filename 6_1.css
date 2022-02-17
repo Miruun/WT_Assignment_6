@@ -1,0 +1,85 @@
+
+.row1 {
+  display:flex ;
+   justify-content: center;
+  }
+  
+  
+  .row1 .item {
+    background:lightgrey;
+    width:5%;
+   padding:20px;
+    margin:18px;
+    color:white;
+    text-align:center;
+  }
+  
+  .row2 {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey ;
+  }
+  
+  .row2 .item {
+    background-color: lightgrey;
+    width: 150px;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 10px;
+  }
+  
+  .box-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    list-style-type: none;
+  }
+  .boxa {
+    background: lightgray;
+    flex: 0 0 100%;
+    width: 50%;
+    margin-left: 10px;
+  }
+  .boxb {
+    background: lightpink;
+    order: 2;
+  }
+  .boxc {
+    background: lightpink;
+  }
+  .boxb,
+  .boxc {
+    flex: 0 0 50%;
+    width: 26%;
+    
+  }
+  
+  .row4 {
+  display:flex ;
+   justify-content: center;
+  
+  }
+  
+  
+  .row4 .item {
+    background:lightskyblue;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    height: 150px;
+  }
+  
+  .row4 .item2 {
+    background:rgb(216, 216, 216);
+    width: 650px;
+    margin: 15px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    height: 150px;
+  }
+  
